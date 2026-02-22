@@ -1,6 +1,6 @@
 interface User {
   name: string;
-  address: {
+  address?: {
     city: string;
   };
 }

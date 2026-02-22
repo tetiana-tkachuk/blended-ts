@@ -1,8 +1,8 @@
-interface Settings {
+type Settings = {
   darkMode: boolean;
   fontSize: number;
   language: string;
-}
+};
 
 const settings: Settings = {
   darkMode: true,
